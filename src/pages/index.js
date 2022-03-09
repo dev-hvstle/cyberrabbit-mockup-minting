@@ -13,7 +13,11 @@ const Minting = () => {
             setUserAddress(tempUserAddress);
         }
     }
-    
+
+    const connectContract = async() =>{
+      
+    }
+
   return (
     <>
         <p>User Address: {userAddress}</p>
